@@ -2,7 +2,7 @@ import react from 'react';
 import {getByTestId, render , screen} from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
-import Add from "/Users/cesar/Desktop/second-angular/QA cypress/Acceptance testing ATDD/todo-app-tau/src/Add.js";
+import Add from "../Add";
 
 describe('todo add', ()=>{
     test('storing input value',async()=>{
